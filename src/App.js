@@ -1,11 +1,11 @@
 import './App.css';
-import Nav from './Nav';
-import Main from './Main';
-import Footer from './Footer';
-import Reserve from './Reserve';
+import Nav from './components/Nav';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import Reserve from './components/Reserve';
 import { Routes, Route } from 'react-router-dom';
-import Details from './Details';
-import Confirmation from './Confirmation';
+import Details from './components/Details';
+import Confirmation from './components/Confirmation';
 
 
 function App() {

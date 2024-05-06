@@ -1,5 +1,5 @@
 import React, { useState , useRef, useEffect} from "react";
-import logo from './Logo.svg';
+import logo from './images/Logo.svg';
 import styled from 'styled-components';
 import { Link, useNavigate } from 'react-router-dom';
 import burger from './images/burger-bar.png'
