@@ -1,20 +1,16 @@
 import React from "react";
+import Testimonials from "./Testimonials";
+import Banner from './Banner';
+import Specials from './Specials';
+import AboutUs from './AboutUs';
 
-function Main(){
-    return(
+function Main() {
+    return (
         <>
-        <section className="Banner">
-            <h1>Little Lemon</h1>
-        </section>
-        <section className="Specials">
-            <h1>Specials</h1>
-        </section>
-        <section className="Testimonials">
-            <h1>Testimonials</h1>
-        </section>
-        <section className="About">
-            <h1>About us</h1>
-        </section>
+        <Banner />
+        <Specials />
+        <Testimonials />
+        <AboutUs />
         </>
     )
 }

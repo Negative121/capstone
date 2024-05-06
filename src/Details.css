@@ -1,0 +1,100 @@
+
+.bg{
+    padding-bottom:400px;
+}
+
+.header h1{
+    font-family: 'Markazi Text';
+    font-size: 4em;
+    font-weight: lighter;
+    margin-bottom:0;
+  }
+
+.main{
+    width:75%;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+.prevdetails{
+    background-color: #EE9972;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:75%;
+}
+
+.menubg{
+    background-color: #FBDABB;
+    width:100%;
+}
+
+.buttons{
+    background-color: #FBDABB;
+
+}
+.bg{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    min-height:650px;
+}
+
+.header h1{
+    margin:0;
+    color:#F4CE14;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    background-color:#495E57;
+    height:143px;
+    align-items:center;
+    justify-content:center;
+}
+
+.main img{
+    width:100%;
+    height:240px;
+    object-fit: cover;
+}
+
+.buttons Button{
+    background-color: #FBDABB;
+    color:black;
+    border-bottom: 2px solid black;
+    outline:#FBDABB;
+    border-radius: 0px;
+
+}
+
+.reservebtn{
+    background-color: #FBDABB;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:3%;
+}
+
+.inline{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.name{
+    width:50%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main{
+        width:95%;
+    }
+    .prevdetails{
+        width:95%;
+    }
+    .name{
+        width:100%;
+    }
+}

@@ -1,0 +1,90 @@
+
+.bg{
+    padding-bottom:400px;
+}
+
+.header h1{
+    font-family: 'Markazi Text';
+    font-size: 4em;
+    font-weight: lighter;
+    margin-bottom:0;
+  }
+
+
+
+.header h1{
+    margin:0;
+    color:#F4CE14;
+}
+
+.inputcont{
+    width:100%;
+}
+
+.inline{
+    display:flex !important;
+    flex-direction: row!important;
+    margin-bottom:2%!important;
+    flex-wrap:wrap!important;
+    
+}
+
+
+.titlecolumn{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.reservebtn{
+    background-color: #FBDABB;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:3%;
+}
+
+.reqcont{
+    width:100%;
+    display:inline;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .main{
+        width:95%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .inline{
+    flex-direction: column!important;
+    align-items: center!important;
+    }
+
+    .titlecolumn{
+        width:80%;
+    }    
+    
+    .request{
+        width:80%;
+        align-self: center;
+    }
+    .reqcont{
+        display:flex;
+        justify-content: center;
+    }
+    .bg{
+        height:130vh !important;
+    }
+}
+.rdp-months{
+    display:flex;
+    flex-direction: row;
+}
+
+.form-select {
+    text-align: center;
+    color: #FBDABB;
+    padding:0;
+}

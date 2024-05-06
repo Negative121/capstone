@@ -1,35 +1,39 @@
 import React from "react";
+import logo from './Logo.svg';
+import facebook from './images/facebook.png';
+import twitter from './images/twitter.png';
+import instagram from './images/instagram.png';
+import youtube from './images/youtube.png';
+import email from './images/email.png';
+import address from './images/gps.png';
+import phone from './images/phone-call.png';
 
 function Footer() {
     return (
-        <>
-            <h3>Quick Links</h3>
+        <footer className="Footer">
+            <div className="logos">
+                <img className="logofooter" src={logo} alt="Little Lemon logo"/>
+                <div className="logocontainer">
+                    <div className="footerlink">
+                        <a href="https://www.facebook.com" target="_blank" rel="noreferrer" > <img src={facebook} alt="facebook"/></a>
+                        <a href="https://www.twitter.com" target="_blank" rel="noreferrer" ><img src={twitter} alt="twitter"/></a>
+                        <a href="https://www.youtube.com" target="_blank" rel="noreferrer" ><img src={youtube} alt="yotube" /></a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noreferrer" ><img src={instagram} alt="instagram" /></a>
 
-            <ul>
-                <li><a>Home</a></li>
-                <li><a>Reservations</a></li>
-                <li><a>Specials</a></li>
-                <li><a>Testimonials</a></li>
-                <li><a>About</a></li>
+                    </div>
+                </div>
+            </div>
+            <div className="containercont">
+
+            <ul className="contacts">
+                <li><img className="phone" src={phone} alt="phone" /><p>+41216910586</p></li>
+                <li> <img className="email"src={email} alt="email" /><p>littlelemon@gmail.com</p></li>
+                <li><img className="address"src={address} alt="map address" /><p>1622 Peaceful Lane, Cleveland, Ohio, 44115</p></li>
             </ul>
 
-            <h3>Contact</h3>
-            <ul>
-                <li>Phone Number</li>
-                <li><a>email</a></li>
-                <li>address</li>
-            </ul>
+            </div>
 
-            <h3>Social Media Links</h3>
-            <ul>
-                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
-                <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
-                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-
-            </ul>
-
-        </>
+        </footer>
     )
 }
 
